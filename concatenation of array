@@ -1,0 +1,17 @@
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int n=nums.length;
+        int [] guru=new int[2*n];
+        kon(nums,guru,0,n);
+        return guru;
+        
+    }
+    void kon(int []nums,int[]guru,int i,int n)
+    {
+        if(i==n)
+        return;
+        guru[i]=nums[i];
+        guru[i+n]=nums[i];
+        kon(nums,guru,i+1,n);
+    }
+}
