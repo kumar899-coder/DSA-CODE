@@ -9,7 +9,8 @@ class Solution {
             }
             else if(ch=='*')
             {
-                if( sb.length() > 0) sb.deleteCharAt(sb.length()-1);
+                if( sb.length() > 0) 
+                sb.deleteCharAt(sb.length()-1);
             }
             else if(ch=='%')
             {
