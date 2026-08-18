@@ -14,7 +14,7 @@ class Solution {
             }
         }
         int res=-1;
-        for(int i=0;i<=50;i++)
+        for(int i=0;i<51;i++)
         {
             if(c[i]==1)
             {
